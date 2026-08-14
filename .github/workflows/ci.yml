@@ -12,8 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
-        with:
-          node-version: latest
-      - run: npm ci
-      - run: npm run ci
+      - uses: voidzero-dev/setup-vp@v1.17.0
+      - run: vpr ci

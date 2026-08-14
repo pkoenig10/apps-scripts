@@ -3,8 +3,7 @@
     "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "noEmit": true,
-    "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "types": ["google-apps-script"]
   }
 }
